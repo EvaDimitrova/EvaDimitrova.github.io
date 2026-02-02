@@ -363,5 +363,41 @@ body {
   color: #cce7c9;
   text-decoration: none;
 }
+/* RESUME SECTION */
+.resume-section {
+  text-align: center;
+}
+
+.resume-card {
+  max-width: 720px;
+  margin: 2rem auto 0;
+  background: white;
+  padding: 3rem 2.5rem;
+  border-radius: 22px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+.resume-card p {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.resume-btn {
+  display: inline-block;
+  background: #7a9f7a;
+  color: white;
+  padding: 0.9rem 2.2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.resume-btn:hover {
+  background: #5f8f5f;
+  transform: translateY(-2px);
+}
+
 
 
